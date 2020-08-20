@@ -7,7 +7,7 @@ public class Corso extends Nodo {
 	private int crediti;
 	private int pd;
 
-	public Corso(String codins, int crediti, String nome, int pd) {
+	public Corso(String codins, String nome, int crediti, int pd) {
 		this.codins = codins;
 		this.crediti = crediti;
 		this.nome = nome;

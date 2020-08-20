@@ -6,7 +6,7 @@ public class TestDAO {
 	public static void main(String[] args) {
 		
 		DidatticaDAO dd = new DidatticaDAO();
-		System.out.println(dd.getCorso("01JEFPG"));
-		System.out.println(dd.getStudente(134806));
+		System.out.println(dd.getAllCorsi());
+		//System.out.println(dd.getStudente(134806));
 	}
 }

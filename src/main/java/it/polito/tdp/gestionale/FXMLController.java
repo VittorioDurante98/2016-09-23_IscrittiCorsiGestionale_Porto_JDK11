@@ -25,7 +25,7 @@ public class FXMLController {
 
     @FXML
     void doCorsiFrequentati(ActionEvent event) {
-
+    	
     }
 
     @FXML
@@ -41,5 +41,6 @@ public class FXMLController {
 
 	public void setModel(Model model) {
 		this.model = model;
+		
 	}
 }
